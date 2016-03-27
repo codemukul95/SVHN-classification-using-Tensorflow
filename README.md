@@ -1,7 +1,7 @@
 # SVHN-classification-using-Tensorflow
 Attempt to implement classification of SVHN Dataset using Tensorflow
 
-Daset URL: http://ufldl.stanford.edu/housenumbers/
+Dataset URL: http://ufldl.stanford.edu/housenumbers/
 
 Libraries Used: NumPy, Scipy and Tensorflow
 
