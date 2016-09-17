@@ -33,15 +33,15 @@ for el in Ytrain:
         temp[3]=1
     elif el==4:
         temp[4]=1
-    elif temp[5]==1:
+    elif el==5:
         temp[5]=1
-    elif temp[6]==1:
+    elif el==6:
         temp[6]=1
-    elif temp[7]==1:
+    elif el==7:
         temp[7]=1
-    elif temp[8]==1:
+    elif el==8:
         temp[8]=1
-    elif temp[9]==1:
+    elif el==9:
         temp[9]=1
     Ytr.append(temp)
 
@@ -80,15 +80,15 @@ for el in Ytest:
         temp[3]=1
     elif el==4:
         temp[4]=1
-    elif temp[5]==1:
+    elif el==5:
         temp[5]=1
-    elif temp[6]==1:
+    elif el==6:
         temp[6]=1
-    elif temp[7]==1:
+    elif el==7:
         temp[7]=1
-    elif temp[8]==1:
+    elif el==8:
         temp[8]=1
-    elif temp[9]==1:
+    elif el==9:
         temp[9]=1
     Yts.append(temp)
 
