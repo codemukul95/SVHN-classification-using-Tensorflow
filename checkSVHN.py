@@ -23,26 +23,7 @@ Ytrain=np.asarray(train['y'])
 Ytr=[]
 for el in Ytrain:
     temp=np.zeros(10)
-    if el==10:
-        temp[0]=1
-    elif el==1:
-        temp[1]=1
-    elif el==2:
-        temp[2]=1
-    elif el==3:
-        temp[3]=1
-    elif el==4:
-        temp[4]=1
-    elif el==5:
-        temp[5]=1
-    elif el==6:
-        temp[6]=1
-    elif el==7:
-        temp[7]=1
-    elif el==8:
-        temp[8]=1
-    elif el==9:
-        temp[9]=1
+    temp[el % 10] = 1
     Ytr.append(temp)
 
 Ytrain=np.asarray(Ytr)
@@ -70,26 +51,7 @@ Ytest=np.asarray(test['y'])
 Yts=[]
 for el in Ytest:
     temp=np.zeros(10)
-    if el==10:
-        temp[0]=1
-    elif el==1:
-        temp[1]=1
-    elif el==2:
-        temp[2]=1
-    elif el==3:
-        temp[3]=1
-    elif el==4:
-        temp[4]=1
-    elif el==5:
-        temp[5]=1
-    elif el==6:
-        temp[6]=1
-    elif el==7:
-        temp[7]=1
-    elif el==8:
-        temp[8]=1
-    elif el==9:
-        temp[9]=1
+    temp[el - 1] = 1
     Yts.append(temp)
 
 Ytest=np.asarray(Yts)
